@@ -1,0 +1,21 @@
+package br.com.xti.poo;
+
+public class GaliTest {
+
+	public static void main(String[] args) {
+
+		Galinha g1 = new Galinha();
+
+		g1.botar().botar().botar().botar();
+
+		Galinha g2 = new Galinha();
+		g2.botar().botar().botar().botar().botar();
+
+		System.out.println("Galinha2 botou " + g2.ovos);
+		System.out.println("Galinha1 botou " + g1.ovos);
+		System.out.println("Total da Granja " + Galinha.ovosDaGranja);
+		System.out.println(Galinha.mediaDeOvos(2));
+
+	}
+
+}
